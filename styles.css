@@ -17,22 +17,27 @@ form{
 form h1{
   text-align: center;
   color: Black
+  font-family: 'Roboto', sans-serif;
 }
 #r_button{
   color: black;
   display: flex;
   margin: 4%;
   padding-right: 5%;
+ font-family: 'Roboto', sans-serif;
 }
 #r_button label{
   margin-left: 5%;
+  font-family: 'Roboto', sans-serif;
 }
 #r_button input{
   margin-left: 5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 div.elem-group {
   margin: 20px 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 div.elem-groups1.inlined {
@@ -40,6 +45,7 @@ div.elem-groups1.inlined {
   display: inline-block;
   float: left;
   margin-left: 1%;
+  font-family: 'Roboto', sans-serif;
 }
 input, select{
   border-radius: 2px;
@@ -49,11 +55,13 @@ input, select{
   font-family: 'Nanum Gothic';
   width: 100%;
   padding: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 div.elem-groups.inlined input {
   width: 20%;
   display: inline-block;
+  font-family: 'Roboto', sans-serif;
 }
 hr {
   border: 1px dotted #ccc;
@@ -82,6 +90,7 @@ button:hover {
   display: inline-block;
   float: left;
   margin-left: 1%;
+  font-family: 'Roboto', sans-serif;
 }
 .elem-groups1{
   padding-top: 5%;
@@ -89,6 +98,7 @@ button:hover {
   display: inline-block;
   float: left;
   margin-left: 1%;
+  font-family: 'Roboto', sans-serif;
 }
 .elem-groups12{
   padding-top: 5%;
@@ -96,4 +106,5 @@ button:hover {
   display: inline-block;
   float: left;
   margin-left: 1%;
+  font-family: 'Roboto', sans-serif;
 }
