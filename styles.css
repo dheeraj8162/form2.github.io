@@ -16,15 +16,16 @@ form{
 }
 form h1{
   text-align: center;
-  color: Black
+  color: Black;
   font-family: 'Roboto', sans-serif;
 }
 #r_button{
   color: black;
   display: flex;
-  margin: 4%;
-  padding-right: 5%;
- font-family: 'Roboto', sans-serif;
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 32%;
+  padding-left: 32%;
 }
 #r_button label{
   margin-left: 5%;
