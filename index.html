@@ -12,17 +12,18 @@
   <form action="reservation.php" method="post">
     <h1>Book Maxi Van Online</h1>
     <div id="r_button">
-
-      <input type="radio" id="Oneway" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+<!-- pattern=[A-Z\sa-z]{3,20}  -->
+      <input type="radio" id="Oneway" name="visitor_name" placeholder="John Doe" required>
       <label>Oneway</label>
-
-      <input type="radio" id="Return" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+<!-- pattern=[A-Z\sa-z]{3,20} -->
+      <input type="radio" id="Return" name="visitor_name" placeholder="John Doe"  required>
       <label>Return</label>
     </div>
     <!--  -->
     <!-- Name  -->
     <div class="elem-group">
-      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+      <input type="text" id="name" name="visitor_name" placeholder="John Doe"  required>
+<!--       pattern=[A-Z\sa-z]{3,20} -->
     </div>
     <!-- Name End -->
     <!-- Email and Phone  -->
@@ -31,7 +32,8 @@
     </div>
     <div class="elem-groups">
       <input type="tel" id="phone" name="visitor_phone" placeholder="+61 x xxxx xxxx"
-        pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        required>
+<!--        pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) -->
     </div>
     <!--  Email and Phone End -->
     <!-- Ori and Des -->
@@ -40,7 +42,8 @@
     </div>
     <div class="elem-groups1">
       <input type="text" id="destination" name="visitor_phone" placeholder="Destination"
-        pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+         required>
+<!--       pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) -->
     </div>
     <!-- Ori and Des End -->
     <!-- Date and time-->
@@ -55,7 +58,7 @@
       <input type="number" id="adult" name="total_adults" placeholder="Number of Passengers" min="1" required>
     </div>
     <div class="elem-groups1 inlined">
-      <input type="number" id="Flight" name="Flight" placeholder="Flight" min="0" required>
+      <input type="text" id="Flight" name="Flight" placeholder="Flight Number" min="0" required>
     </div>
 
     <div class="elem-groups12">
