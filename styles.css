@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-html, body {
-  width: 300px;
-  margin: 0 auto;
-  padding-top: 5%;
-  padding-right: 16%;
-  background-size:cover;
+body {
+  margin: 0%;
+  padding: 0%;
+ box-sizing: border-box;
 }
-
+.first-form{
+padding: 10%;
+width: 230px;
+}
 form{
   border:solid;
   color: #FF8C00;
@@ -17,28 +18,28 @@ form{
 form h1{
   text-align: center;
   color: Black;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
 }
 #r_button{
   color: black;
   display: flex;
   margin: 0%;
-  font-family: 'Roboto', sans-serif;
-  padding-right: 32%;
-  padding-left: 32%;
+  padding-right: 18%;
+  padding-left: 18%;
+  text: 10px;
+
 }
 #r_button label{
   margin-left: 5%;
+  font-size: 22px;
   font-family: 'Roboto', sans-serif;
 }
 #r_button input{
   margin-left: 5%;
-  font-family: 'Roboto', sans-serif;
 }
 
 div.elem-group {
   margin: 20px 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 div.elem-groups1.inlined {
@@ -62,7 +63,6 @@ input, select{
 div.elem-groups.inlined input {
   width: 20%;
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
 }
 hr {
   border: 1px dotted #ccc;
@@ -81,6 +81,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   margin-top:20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
@@ -91,7 +92,6 @@ button:hover {
   display: inline-block;
   float: left;
   margin-left: 1%;
-  font-family: 'Roboto', sans-serif;
 }
 .elem-groups1{
   padding-top: 5%;
@@ -108,4 +108,18 @@ button:hover {
   float: left;
   margin-left: 1%;
   font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width 600px){
+  form{
+    border:solid;
+    color: #FF8C00;
+    padding: 7px;
+    width: 200%;
+    font-family: 'Roboto', sans-serif;
+  }
+  .first-form{
+   width: 10px;
+   justify-content: center;
+
+  }
 }
